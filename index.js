@@ -11,3 +11,4 @@ const server = app.listen(post, () => {
 
 module.exports = server
 
+print("Hello world");
