@@ -2,5 +2,3 @@
 ## run
     npm i
     npm start
-
-as
