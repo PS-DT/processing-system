@@ -5,8 +5,11 @@ const app = express();
 
 const post = 4231;
 
-const server = app.listen(post,()=>{
+const server = app.listen(post, () => {
     console.log(`listening on post ${post}`)
 })
 
 module.exports = server
+
+
+print("hello world")
