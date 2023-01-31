@@ -1,5 +1,7 @@
 require('./startup/db')();
 
+// Another way
+// import express from 'express';
 const express = require('express');
 const app = express();
 
