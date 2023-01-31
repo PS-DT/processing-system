@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 // Homepage GET Request
 app.get('/', (req, res) => {
-    console.log('[TEST]');
+    // console.log('[TEST]');
 
     res.send('Hello from Homepage.');
 });
