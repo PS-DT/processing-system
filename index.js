@@ -1,6 +1,6 @@
 require('./startup/db')();
 
-// Another way
+// Another way : include type : "module" inside package.json
 // import express from 'express';
 const express = require('express');
 const app = express();
@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 const post = 4231;
 
 const server = app.listen(post, () => {
-    console.log(`listening on post http://localhost:${post}`)
+    console.log(`listening on post http://localhost:${post}`);
 })
 
 module.exports = server
