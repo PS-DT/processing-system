@@ -2,7 +2,7 @@
   "name": "my-backend",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "aws-sdk": "latest",
     "body-parser": "latest",
